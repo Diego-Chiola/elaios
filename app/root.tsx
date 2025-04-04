@@ -53,6 +53,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
+// 👇 Add this to set the correct basename for GitHub Pages
+export const handle = {
+  basename: "/elaios", // 👈 Set to your repo name
+};
+
 export default function App() {
   return <Outlet />;
 }
