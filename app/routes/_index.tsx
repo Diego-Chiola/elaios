@@ -30,7 +30,7 @@ export default function Index() {
           </div>
         </header>
         <div className="flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6">
-          Cose in greco
+          Cose in greco e latino
         </div>
       </div>
     </div>
