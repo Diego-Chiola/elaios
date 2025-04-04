@@ -22,9 +22,6 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build Tailwind CSS
-        run: yarn run build:css
-
       - name: Build Static Files
         run: yarn remix vite:build
 
